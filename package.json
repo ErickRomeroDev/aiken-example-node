@@ -1,0 +1,23 @@
+{
+  "name": "aiken-example-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.0.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@meshsdk/common": "^1.0.0-alpha.9",
+    "@meshsdk/core": "^1.5.32",
+    "@meshsdk/core-csl": "1.6.0-alpha.7"
+  }
+}
