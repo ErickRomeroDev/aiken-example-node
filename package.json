@@ -2,9 +2,8 @@
   "name": "aiken-example-node",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {    
-    "build": "tsc",
-    "giftcard": "npx tsc && node dist/src/giftcard/run.js"
+  "scripts": {        
+    "giftcard": "npx tsc && node dist/src/giftcard/run.js"    
   },
   "keywords": [],
   "author": "",
@@ -12,13 +11,14 @@
   "description": "",
   "devDependencies": {
     "@types/node": "^22.0.2",
+    "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
     "tsup": "^8.2.3",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4"    
   },
   "dependencies": {
-    "@meshsdk/common": "^1.0.0-alpha.9",
-    "@meshsdk/core": "^1.5.32",
-    "@meshsdk/core-csl": "1.6.0-alpha.7"
+    "@meshsdk/core": "1.6.2",
+    "@meshsdk/react": "1.6.2",
+    "dotenv": "^16.4.5"
   }
 }
