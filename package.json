@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {        
-    "giftcard": "npx tsc && node dist/src/giftcard/run.js"    
+    "giftcard": "npx tsc && node dist/src/giftcard/run.js",
+    "giftcardServer": "npx tsc && node dist/src/giftcard/runServer.js"        
   },
   "keywords": [],
   "author": "",
